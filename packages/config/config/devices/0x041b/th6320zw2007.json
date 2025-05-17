@@ -193,6 +193,18 @@
 		{
 			"#": "45",
 			"$import": "~/templates/honeywell_template.json#humidity_resolution"
+		},
+		{
+			"#": "46",
+			"$import": "~/templates/honeywell_template.json#indoor_sensor"
+		},
+		{
+			"#": "47",
+			"$import": "~/templates/honeywell_template.json#sensor_type"
+		},
+		{
+			"#": "48",
+			"$import": "~/templates/honeywell_template.json#temperature_control"
 		}
 	],
 	"compat": {
