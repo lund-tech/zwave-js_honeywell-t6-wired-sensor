@@ -757,5 +757,60 @@
 		"maxValue": 5,
 		"defaultValue": 1,
 		"unit": "%"
+	},
+	"indoor_sensor": {
+		"valueSize": 1,
+		"minValue": 0,
+		"maxValue": 1,
+		"defaultValue": 1,
+		"allowManualEntry": false,
+		"options": [
+			{
+				"label": "Yes",
+				"value": 0
+			},
+			{
+				"label": "No",
+				"value": 1
+			}
+		]
+	},
+	"sensor_type": {
+		"valueSize": 1,
+		"minValue": 0,
+		"maxValue": 1,
+		"defaultValue": 0,
+		"allowManualEntry": false,
+		"options": [
+			{
+				"label": "10k",
+				"value": 0
+			},
+			{
+				"label": "20k",
+				"value": 1
+			}
+		]
+	},
+	"temperature_control": {
+		"valueSize": 1,
+		"minValue": 0,
+		"maxValue": 2,
+		"defaultValue": 0,
+		"allowManualEntry": false,
+		"options": [
+			{
+				"label": "Thermostat",
+				"value": 0
+			},
+			{
+				"label": "Wired",
+				"value": 1
+			},
+			{
+				"label": "Average",
+				"value": 2
+			}
+		]
 	}
 }
